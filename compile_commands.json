@@ -1,0 +1,90 @@
+[
+  {
+    "file": "chunk.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "chunk.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "compiler.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "compiler.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "debug.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "debug.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "main.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "main.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "memory.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "memory.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "scanner.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "scanner.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "value.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "value.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  },
+  {
+    "file": "vm.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "vm.c",
+      "-o",
+      "app"
+    ],
+    "directory": "/home/bruno/projects/clox",
+    "output": "app"
+  }
+]
