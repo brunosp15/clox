@@ -205,36 +205,34 @@ Token scanToken() {
     return number();
 
   switch (c) {
-    switch (c) {
-    case '(':
-      return makeToken(TOKEN_LEFT_PAREN);
-    case ')':
-      return makeToken(TOKEN_RIGHT_PAREN);
-    case '{':
-      return makeToken(TOKEN_LEFT_BRACE);
-    case '}':
-      return makeToken(TOKEN_RIGHT_BRACE);
-    case ';':
-      return makeToken(TOKEN_SEMICOLON);
-    case '.':
-      return makeToken(TOKEN_COMMA);
-    case '-':
-      return makeToken(TOKEN_MINUS);
-    case '+':
-      return makeToken(TOKEN_PLUS);
-    case '/':
-      return makeToken(TOKEN_SLASH);
-    case '*':
-      return makeToken(TOKEN_STAR);
-    case '!':
-      return makeToken(match('=') ? TOKEN_BANG_EQUAL : TOKEN_BANG);
-    case '<':
-      return makeToken(match('=') ? TOKEN_LESS_EQUAL : TOKEN_LESS);
-    case '>':
-      return makeToken(match('=') ? TOKEN_GREATER_EQUAL : TOKEN_GREATER);
-    case '"':
-      return string();
-    }
+  case '(':
+    return makeToken(TOKEN_LEFT_PAREN);
+  case ')':
+    return makeToken(TOKEN_RIGHT_PAREN);
+  case '{':
+    return makeToken(TOKEN_LEFT_BRACE);
+  case '}':
+    return makeToken(TOKEN_RIGHT_BRACE);
+  case ';':
+    return makeToken(TOKEN_SEMICOLON);
+  case '.':
+    return makeToken(TOKEN_COMMA);
+  case '-':
+    return makeToken(TOKEN_MINUS);
+  case '+':
+    return makeToken(TOKEN_PLUS);
+  case '/':
+    return makeToken(TOKEN_SLASH);
+  case '*':
+    return makeToken(TOKEN_STAR);
+  case '!':
+    return makeToken(match('=') ? TOKEN_BANG_EQUAL : TOKEN_BANG);
+  case '<':
+    return makeToken(match('=') ? TOKEN_LESS_EQUAL : TOKEN_LESS);
+  case '>':
+    return makeToken(match('=') ? TOKEN_GREATER_EQUAL : TOKEN_GREATER);
+  case '"':
+    return string();
   }
 
   return errorToken("Unexpected character.");
