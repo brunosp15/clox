@@ -1,3 +1,3 @@
 
-gcc -g -o build/main *.c
+gcc -g -o build/main src/*.c
 

@@ -53,7 +53,7 @@ static void runFile(const char *path) {
 
   if (result == INTERPRET_COMPILE_ERROR)
     exit(65);
-  if (result == INTEPRET_RUNTIME_ERROR)
+  if (result == INTERPRET_RUNTIME_ERROR)
     exit(70);
 }
 int main(int argc, const char *arg[]) {
