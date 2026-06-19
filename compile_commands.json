@@ -1,9 +1,9 @@
 [
   {
-    "file": "chunk.c",
+    "file": "src/chunk.c",
     "arguments": [
       "/usr/bin/gcc",
-      "chunk.c",
+      "src/chunk.c",
       "-o",
       "app"
     ],
@@ -11,10 +11,10 @@
     "output": "app"
   },
   {
-    "file": "compiler.c",
+    "file": "src/compiler.c",
     "arguments": [
       "/usr/bin/gcc",
-      "compiler.c",
+      "src/compiler.c",
       "-o",
       "app"
     ],
@@ -22,10 +22,10 @@
     "output": "app"
   },
   {
-    "file": "debug.c",
+    "file": "src/debug.c",
     "arguments": [
       "/usr/bin/gcc",
-      "debug.c",
+      "src/debug.c",
       "-o",
       "app"
     ],
@@ -33,10 +33,10 @@
     "output": "app"
   },
   {
-    "file": "main.c",
+    "file": "src/main.c",
     "arguments": [
       "/usr/bin/gcc",
-      "main.c",
+      "src/main.c",
       "-o",
       "app"
     ],
@@ -44,10 +44,10 @@
     "output": "app"
   },
   {
-    "file": "memory.c",
+    "file": "src/memory.c",
     "arguments": [
       "/usr/bin/gcc",
-      "memory.c",
+      "src/memory.c",
       "-o",
       "app"
     ],
@@ -55,10 +55,10 @@
     "output": "app"
   },
   {
-    "file": "scanner.c",
+    "file": "src/scanner.c",
     "arguments": [
       "/usr/bin/gcc",
-      "scanner.c",
+      "src/scanner.c",
       "-o",
       "app"
     ],
@@ -66,10 +66,10 @@
     "output": "app"
   },
   {
-    "file": "value.c",
+    "file": "src/value.c",
     "arguments": [
       "/usr/bin/gcc",
-      "value.c",
+      "src/value.c",
       "-o",
       "app"
     ],
@@ -77,10 +77,10 @@
     "output": "app"
   },
   {
-    "file": "vm.c",
+    "file": "src/vm.c",
     "arguments": [
       "/usr/bin/gcc",
-      "vm.c",
+      "src/vm.c",
       "-o",
       "app"
     ],
