@@ -3,6 +3,7 @@
 
 #include "common.h"
 #include "value.h"
+#include <stdint.h>
 
 typedef struct {
   ObjString *key;
@@ -21,4 +22,6 @@ bool tableGet(Table *table, ObjString *key, Value *value);
 bool tableSet(Table *table, ObjString *key, Value value);
 bool tableDelete(Table *table, ObjString *key);
 void tableAdAll(Table *from, Table *to);
+ObjString *tableFindString(Table *table, const char *chars, int length,
+                           uint32_t hash);
 #endif
